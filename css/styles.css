@@ -2,7 +2,11 @@
 YOUR STYLES
 *******************/
 
-
+article {
+    background: gray; 
+    margin: 0 auto; 
+    padding: 3em;
+}
 
 
 /********************
