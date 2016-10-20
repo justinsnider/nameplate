@@ -2,4 +2,6 @@
 $('h1').lettering();
 
 // Make Backstretch Go
-$.backstretch('/img/bg.jpg')
+$.backstretch('../img/bg.jpg');
+
+//Make Masonry Go
