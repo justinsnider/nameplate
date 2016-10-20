@@ -9,11 +9,21 @@ article {
     padding: 3em;
 }
 
+ 
+
 h1 {
     font-size: 5em;
     text-transform: uppercase; 
     text-align: center; 
     
+}
+
+.bio {
+    display: block; 
+    width: 300px;
+    height: 400px;  
+    margin-top: 15em;
+    margin-left: 19em; 
 }
 
 p {
@@ -81,6 +91,10 @@ li {
     transform: rotate(45deg);
 }
 
+
+
+
+
 /*Keyframe Animation*/
 
 @keyframes rubberBand {
@@ -125,13 +139,7 @@ li {
   animation-name: rubberBand;
 }
 
-img {
-    display: block; 
-    width: 300px;
-    height: 400px; 
-    margin-left: auto;
-    margin-right: auto; 
-}
+
 
 
 
