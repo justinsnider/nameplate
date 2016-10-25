@@ -53,7 +53,7 @@ section {
 }
 
 section:hover {
-    background: white; 
+    background: #20b2aa; 
     transition: 1s;
 }
 
@@ -98,7 +98,7 @@ a {
 }
 
 a:hover {
-    color: #20b2aa;
+    color: white;
 }
 
 
