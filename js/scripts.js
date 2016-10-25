@@ -6,7 +6,7 @@ $.backstretch('../img/bg.jpg');
 
 //Make Masonry Go
 $('article').masonry({
-    itemSelector: 'h1',
+    itemSelector: 'section',
     columnWidth: 0,
     gutter: 10,
     transitionDuration: '1s'

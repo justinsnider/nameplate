@@ -2,6 +2,7 @@
 YOUR STYLES
 *******************/
 
+
     
 article {
     background: url("..img/bg.jpg"); 
@@ -9,55 +10,97 @@ article {
     padding: 3em;
 }
 
- 
+.bio {
+    height: 185px;
+    width: 150px;
+    display: block;
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+    
+     
+}
 
-h1 {
+ h1 {
     font-size: 5em;
     text-transform: uppercase; 
     text-align: center; 
     
 }
 
-.bio {
-    display: block; 
-    width: 300px;
-    height: 400px;  
-    margin-top: 15em;
-    margin-left: 19em; 
+h3 {
+    text-align: center;
 }
+
+li {
+    list-style: none;
+    text-align: center;
+    margin-right: 2em;
+}
+
 
 p {
-    background: black; 
-    text-align: center;
-    color: white; 
-    margin-right: 20em;
-    margin-left: 20em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
-h3 {
-    color: #20b2aa;
-    text-align: center; 
-    font-size: 2em;
-    background: black;
-    margin-right: 10em;
-    margin-left: 10em; 
+section {
+  background: rgba(183, 182, 182, 0.75);
+  border: 1px solid black;
+  /* vertical space between */
+  margin-bottom: 10px;
+  /*default width*/
+  width: 200px;
 }
+
+section:hover {
+    background: white; 
+    transition: 1s;
+}
+
+.tall {
+    height: 325px;
+}
+
+.page {
+    height: 300px;
+    width: 185px; 
+    margin-top: 12.5px; 
+    margin-left: 7.5px;
+}
+
+.pinball {
+    height: 300px;
+    width: 185px;
+    margin-top: 12.5px;
+    margin-left: 7.5px;
+}
+
+
+
+.medium {
+    height: 250px; 
+}
+
+.short {
+    height: 200px;
+}
+
+.caterpillar {
+    height: 175px;
+    width: 175px;
+    margin-left: 12.5px;
+    margin-top: 12.5px;
+}
+
 
 a {
-    color: white; 
+    color: black; 
 }
 
 a:hover {
     color: #20b2aa;
 }
 
-li {
-    background: black; 
-    text-align: center; 
-    list-style: none; 
-    margin-right: 21em; 
-    margin-left: 18em; 
-}
 
 /*First Frame*/
 .char1, .char8, .char11 {
@@ -150,17 +193,16 @@ li {
 MEDIA QUERIES
 *******************/
 
-/* Desktop */
-@media (min-width: 1200px) {
+/* Mobile */
 
-}
+@media (min-width: 480px) {}
+
+
 
 /* Tablet */
-@media (min-width: 768px) {
 
-}
+@media (min-width: 768px) {}
 
-/* Mobile */
-@media (min-width: 480px) {
 
-}
+/* Desktop */
+@media (min-width: 1024px) {}
